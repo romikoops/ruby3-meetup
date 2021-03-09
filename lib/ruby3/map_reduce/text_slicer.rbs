@@ -1,0 +1,8 @@
+# Classes
+module Ruby3
+  module MapReduce
+    DELIMITER: String
+
+    def self.slice_text: (untyped text, untyped count) -> untyped
+  end
+end

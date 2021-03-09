@@ -1,0 +1,12 @@
+# Classes
+module Ruby3
+  module MapReduce
+    CHAR_SET: Array[untyped]
+    DEFAULT_MIN_CHARS: Integer
+    DEFAULT_MAX_CHARS: Integer
+    DUPLICATION_FACTOR: Integer
+
+    def self.generate_words: (untyped count, ?Integer min_chars, ?Integer max_chars, ?Integer dup_factor) -> (Array[(Array[(Array[untyped] | String)?] | String)?])
+    def self.generate_text: (untyped word_count) -> String
+  end
+end
